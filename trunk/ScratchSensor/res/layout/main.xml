@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mainLayout"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Not Connected"
+    android:id="@+id/status"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Accelerometer"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="X Value"
+    android:id="@+id/xbox"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Y Value"
+    android:id="@+id/ybox"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Z Value"
+    android:id="@+id/zbox"
+    />    
+
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Orientation"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="X Value"
+    android:id="@+id/xboxo"
+    />
+
+<EditText android:layout_height="wrap_content" android:id="@+id/editText1" android:layout_width="fill_parent">
+    <requestFocus></requestFocus>
+</EditText>
+<Button android:layout_height="wrap_content" android:id="@+id/button1" android:text="Connect / Disconnect" android:layout_width="fill_parent"></Button>
+<TextView android:text="(c) 2011 Emant Pte Ltd" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>    
+
+</LinearLayout>
