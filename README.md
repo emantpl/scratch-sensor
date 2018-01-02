@@ -2,4 +2,6 @@ Scratch is an interpreted dynamic visual programming language. Being dynamic, it
 
 Connections between Scratch and other programs are made using the Scratch networking protocol. With this feature turned on, Scratch automatically sends all broadcasts and values of global variables out to any program connected to it. That program can also send broadcasts and global variables into Scratch. The Scratch Sensor is an Android app that uses the Scratch networking protocol to turn the Android Smartphone into a DAQ module and sends its accelerometer and compass sensor information and broadcast two states (jump and walk) to Scratch.
 
+This source code is for Scratch 1.4 only.
+
 [How to use the Scratch Sensor App](http://smartphonedaq.com/scratch-sensor.page)
